@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandris Bullis CV</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="full">
+        <div class="left">
+
+<h1 id="pirmaisHeading"> Šis ir mans pirmais HTML dokuments</h1>
+
+<h2 class="note">Šī ir pirmā rindkopa</h2>
+<!--
+    p nozīmē paragrāfs
+<br> nozīmē jauna līnija
+<h1> līdz <h6> ir virsraksti
+-->
+    <p class="note">
+
+        Šis ir <strong>apraksts</strong> par mani
+
+        <a href="https://www.linkedin.com/in/sandris-bullis/" target="_blank">LINKEDIN</a>
+
+        <h6 class="note">Apakšvirsraksts</h6>
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dapibus quam nec malesuada faucibus. <br> Nunc tristique, velit sed euismod blandit, massa augue tempus sapien, eget finibus arcu ligula quis quam. Vestibulum condimentum lacinia orci finibus tristique. Donec vitae odio eget ante auctor congue at et enim. Sed sed nisl nisl. Morbi convallis ipsum volutpat dignissim cursus. Phasellus id consequat nibh. Sed convallis tempor odio nec blandit. Nulla lacinia libero vel urna aliquet, ac commodo nunc placerat. Nulla dignissim diam eu semper posuere. Mauris sed posuere dolor, sit amet gravida metus. Ut at risus sed tortor tincidunt elementum id vitae odio. In neque mi, pharetra suscipit semper vitae, ultricies non nunc. Nam quis lorem et velit tempus viverra.
+
+        <h6 class="note">Apakšvirsraksts</h6>
+
+        Nulla dignissim diam eu semper posuere. Mauris sed posuere dolor, sit amet gravida metus. Ut at risus sed tortor tincidunt elementum id vitae odio. In neque mi, pharetra suscipit semper vitae, ultricies non nunc. Nam quis lorem et velit tempus viverra.
+    </p>
+    
+    <h2>Šī ir otrā rindkopa</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dapibus quam nec malesuada faucibus. Nunc tristique, velit sed euismod blandit, massa augue tempus sapien, eget finibus arcu ligula quis quam. Vestibulum condimentum lacinia orci finibus tristique. Donec vitae odio eget ante auctor congue at et enim. Sed sed nisl nisl. Morbi convallis ipsum volutpat dignissim cursus. Phasellus id consequat nibh. Sed convallis tempor odio nec blandit. Nulla lacinia libero vel urna aliquet, ac commodo nunc placerat. Nulla dignissim diam eu semper posuere. Mauris sed posuere dolor, sit amet gravida metus. Ut at risus sed tortor tincidunt elementum id vitae odio. In neque mi, pharetra suscipit semper vitae, ultricies non nunc. Nam quis lorem et velit tempus viverra.
+    </p>
+
+    <h2>Bilde ar kaķi</h2>
+    <img src="img/Cat.png" width="30%" alt="bilde ar kaķi">
+    </div>
+    <div class="right">
+    <br>
+
+    <img src="https://www.lu.lv/templates/LU.LV/Public/Images/logo_100_blue.svg" width="50%" alt="bilde ar LU LOGO">
+
+    <br>
+
+    <input id="vecums" maxlength="3">
+    <button id="poga">Spied šeit</button>
+    <p>Lietotāja vecums ir: <strong id="lietotajavecums"></strong> </p>
+
+
+    <h3>Iepirkumu saraksts</h3>
+    <ul>
+        <li>Piens</li>
+        <li>Maize</li>
+        <li>Cukurs</li>
+    </ul>
+    
+    <h3>Kā uzvārīt kafiju</h3>
+    <ol>
+        <li>Jāuzvāra ūdens</li>
+        <li>Jāieber tēja krūzē</li>
+        <li>Jāielej ūdens krūzē</li>
+        <li>Jāpagaida kāmēr tēja ievelkas</li>
+    </ol>
+</div>
+</div>
+</body>
+
+<script>
+    document.getElementById("poga").onclick = function() {
+        var vecums =  document.getElementById("vecums").value
+    alert("Hello, Sandri! Tavs vecums ir " + vecums);
+    document.getElementById("lietotajavecums").innerText=vecums;
+};
+
+</script>
+
+</html>
