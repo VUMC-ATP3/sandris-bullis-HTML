@@ -15,6 +15,22 @@
 
             <img src="img/me.jpeg" width="60%" alt="foto">
 
+
+<p>Leave a message: <strong id="ziņa"></strong>
+    <br>
+    <input id="msg" maxlength="50">
+    
+    <button id="poga">Send</button>
+    <script>
+            document.getElementById("poga").onclick = function() {
+            var msg =  document.getElementById("msg").value
+            alert(  "Message sent! Or maybe not. " + msg)
+            // document.getElementById("ziņa").innerText=msg
+    };
+        
+     </script>
+
+
 <h2> Contacts </h2>
             <b> Email: sandrisbullis@gmail.com
                 <br>
@@ -94,8 +110,8 @@
             Working in the technology industry for more than 10 years.
             Experience working with international clients, with a demonstrated history of
             hardware troubleshooting, error documenting and case resolving.
-            Actively obtaining courses on QA - manual and automated,
-            and involved in various domain freelance testing projects,
+            Feeling like switching career, so actively obtaining courses on QA - manual and automated,
+            and lately involved in various domain freelance testing projects,
             mostly exploratory and regression testing.
             Familiar with functional, black-box, smoke testing.
             At the moment learning automated software testing in LU.
