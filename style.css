@@ -1,15 +1,15 @@
-/* Pēc klases */
+/* Pēc klases
 .note{
     color: blue;
     font-size: 10px;
 }
 
-/* Pēc ID */
+ Pēc ID
 #pirmaisHeading{
     font-style: italic;
 }
 
-/* Pēc elementa nosaukuma */
+ Pēc elementa nosaukuma 
 h3 {
     color: blueviolet; 
     background-color: black;
