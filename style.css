@@ -20,20 +20,24 @@ h3 {
 } */
 
 .full{
-    border: 3px solid #fff;
-    padding: 20px; 
-    border-style: groove;
+   /* border: 10px solid #fff; */
+    padding: 100px;
+    /* border-style: groove; */
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 30% 70%;
 }
 
 .left{
-    background-color: aqua;
+    background-color: #03c6fc;
+    border-style: solid;
+    padding: 50px;
        
 }
 
 .right{
-    background-color: bisque;
+    background-color: #f4fa7d;
+    border-style: solid;
+    padding: 50px;
         
 }
 
